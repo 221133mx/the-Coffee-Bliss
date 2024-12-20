@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Coffee Bliss</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Custom Contact Form Styling */
+        .contact-header {
+            background-image: url('images/contact-bg.jpg'); /* Replace with a suitable background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .form-container {
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-top: 30px;
+        }
+
+        .form-container h2 {
+            font-size: 2rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #6c757d;
+            border: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff6347;
+            box-shadow: 0px 4px 10px rgba(255, 99, 71, 0.5);
+        }
+
+        .contact-details {
+            margin-top: 40px;
+        }
+
+        .contact-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-details p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: #333; padding: 10px 20px;">
+        <a class="navbar-brand" href="#" style="font-size: 30px; font-weight: bold; color: #f8f9fa;">Coffee Bliss</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center py-5" style="background-image: url('images/background.jpg'); background-size: cover; background-position: center; height: 400px;">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Get in touch with us today.</p>
+    </header>
+
+    <!-- Contact Form -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="form-container">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@coffeebliss.com</p>
+                    <p>Phone: +1-234-567-890</p>
+                </div>
+                <div class="col-md-4 text-center social-icons">
+                    <h5>Follow Us</h5>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2024 Coffee Bliss. All rights reserved.</p>
+        </div>
+    </footer>

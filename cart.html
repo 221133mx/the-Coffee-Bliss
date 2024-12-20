@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Coffee Bliss</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: #333; padding: 10px 20px;">
+        <a class="navbar-brand" href="#" style="font-size: 30px; font-weight: bold; color: #f8f9fa;">Coffee Bliss</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html" style="color: #f8f9fa; font-size: 18px; padding: 10px 15px;">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="bg-dark text-white text-center py-5" style="background-image: url('images/background.jpg'); background-size: cover; background-position: center; height: 400px;">
+        <h1>Cart</h1>
+        <p>Brewing happiness, one cup at a time.</p>
+    </header>
+    <div class="container mt-5">
+        <h2 class="text-center">Items in Your Cart</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Espresso</td>
+                    <td>$3.00</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="form-control" style="width: 80px;">
+                    </td>
+                    <td>$3.00</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Latte</td>
+                    <td>$4.50</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="form-control" style="width: 80px;">
+                    </td>
+                    <td>$4.50</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-right">
+            <h4>Total: $7.50</h4>
+            <a href="checkout.html" class="btn btn-success">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@coffeebliss.com</p>
+                    <p>Phone: +1-234-567-890</p>
+                </div>
+                <div class="col-md-4 text-center social-icons">
+                    <h5>Follow Us</h5>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2024 Coffee Bliss. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
